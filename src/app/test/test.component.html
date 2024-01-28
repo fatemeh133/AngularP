@@ -1,2 +1,7 @@
 <h2>Hi</h2>
-<button class="btn btn-danger">Danger</button>
+<button class="btn btn-danger" [disabled]="btnDisabled" (click)="clickEvent()">
+  Danger
+</button>
+<input [type]="inputType" (blur)="logValue($event)" />
+<div>my id is {{ getID() }} and my name is {{ name }}</div>
+<img [src]="imgUrl" />
