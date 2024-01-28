@@ -11,6 +11,7 @@ export class TestComponent {
   name: string = 'fat';
   btnDisabled: boolean = true;
   inputType: string = 'text';
+  inputValue: string = 'ss';
   imgUrl: string =
     'https://us.123rf.com/450wm/cc0collection/cc0collection2205/cc0collection220540385/186116070-dark-room-people-woman-girl-photography-photographer-camera-lens-outdoor-travel.jpg?ver=6';
   constructor() {
